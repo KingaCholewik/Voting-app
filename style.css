@@ -1,9 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Sulphur Point', sans-serif;
   width: 800px;
   margin: 0 auto;
+  background-color: #f6f6f6;
+  color: #242424;
+  letter-spacing: .5px;
+  height: 100vh;
+}
+.wrapper{
+  border: 1px solid #242424;
+  width: 800px;
+  
+  height: 100vh;
+  background-color: #f6f6f6;
+  
+}
+h1{
+  font-weight: 700;
+  line-height: 120%;
+  width: 640px;
+  text-align: center;
+  padding: 20px 0;
+}
+h2{
+  font-weight: 700;
+  line-height: 120%;
+  width: 640px;
+  text-align: center;
+  padding: 20px 0;
 }
 input, select, button {
   display: block;
   margin: 20px 0;
+}
+.submit-form{
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 2px;
+  cursor: pointer;
+  letter-spacing: .5px;
+  margin-left: 20px;
+}
+.vote-options{
+  color: #242424;
+  min-height: 48px;
+  margin-left: 20px;
+
+  letter-spacing: .5px;
+  background-color: transparent;
+  border: 1px solid #242424;
+  border-radius: 2px;
+  padding: 0.8rem 1.25rem;
+  font-size: 1rem;
+  line-height: 130%;
+
+}
+input{
+  color: #242424;
+  min-height: 48px;
+  
+  letter-spacing: .5px;
+  background-color: transparent;
+  border: 1px solid #242424;
+  border-radius: 2px;
+  padding: 0.8rem 1.25rem;
+  font-size: 1rem;
+  margin-left: 20px;
+
+
+}
+label{
+  color: #242424;
+  margin-left: 20px;
+
+  
+  letter-spacing: .5px;
+  background-color: transparent;
+  
+  
+  font-size: 1rem;
+  
+}
+.vote-results{
+  margin-left: 20px;
+  font-size: 1rem;
 }
